@@ -5,6 +5,10 @@ export const Input = styled.input`
     padding: 6px;
     border-radius: 20px;
     border-color: #74CCF4;
+
+    @media(max-width:625px) {
+        width: 90%;
+    }
 `
 
 export const ButtonSearch = styled.button`

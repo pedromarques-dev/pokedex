@@ -24,6 +24,10 @@ export const Container = styled.div`
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+
+    @media(max-width: 765px) {
+        flex-direction: column;
+    }
     
 `
 
@@ -45,6 +49,11 @@ export const CardPhoto = styled.div`
         font-size: 3rem;
         margin-bottom: 30px;
         text-transform: capitalize;
+    }
+
+    
+    @media(max-width: 765px) {
+        width: 100%;
     }
 `
 
@@ -71,6 +80,11 @@ export const CardDetails = styled.div`
         text-transform: uppercase;
         padding: 5px 0;
         font-weight: 600;
+    }
+
+        
+    @media(max-width: 765px) {
+        width: 100%;
     }
 
 `

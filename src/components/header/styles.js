@@ -11,5 +11,19 @@ export const Header = styled.header`
         width: 300px;
         margin: 0 20px;
     }
+
+
+    @media(max-width:625px) {
+        flex-direction: column;
+        padding: 20px 0;
+        text-align: center;
+
+        img {
+            width: 80%;
+            margin: 0;
+            padding: 10px 0;
+
+        }
+    }
     
 `

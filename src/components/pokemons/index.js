@@ -79,7 +79,7 @@ export const Pokemons = () => {
         <Section style={{ backgroundImage: theme.backgrounds.homepage.image }}>
             <Search
                 type='search'
-                placeholder='Pesquise o nome ou o tipo pokemon desejado'
+                placeholder='Pesquise o nome ou o tipo do pokemon'
                 onChange={handleChange}
                 value={search}
                 filterPokemons={filterPokemons}
@@ -88,7 +88,7 @@ export const Pokemons = () => {
 
             <Container>
                 {
-                    pokemons ? pokemons.map((pokemon, index) => {
+                    actualPokemons ? actualPokemons.map((pokemon, index) => {
                         return (
                             <Link key={index} to={`/${pokemon.id}`}>
                                 <Card style={{
