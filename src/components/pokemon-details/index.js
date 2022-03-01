@@ -56,7 +56,7 @@ export const PokemonDetails = () => {
                     </div>
                 </CardPhoto>
                 <CardDetails>
-                    <h3>Habilidades🔥</h3>
+                    <h3>Abilities🔥</h3>
                     <ul>
                         {
                             abilities.map((ability, index) => {
@@ -73,7 +73,7 @@ export const PokemonDetails = () => {
                             })
                         }
                     </ul>
-                    <h3>Movimentos💨</h3>
+                    <h3>Moves💨</h3>
                     <ul>
                         {
                             pokemon.moves.map((move, index) => {
@@ -89,7 +89,7 @@ export const PokemonDetails = () => {
                             })
                         }
                     </ul>
-                    <h3>Tipo⭐</h3>
+                    <h3>Type(s)⭐</h3>
                     <ul>
                         {
                             pokemon.types.map((type, index) => {
