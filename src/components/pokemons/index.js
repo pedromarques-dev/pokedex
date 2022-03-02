@@ -88,7 +88,7 @@ export const Pokemons = () => {
 
             <Container>
                 {
-                    actualPokemons ? actualPokemons.map((pokemon, index) => {
+                    pokemons ? pokemons.map((pokemon, index) => {
                         return (
                             <Link key={index} to={`/${pokemon.id}`}>
                                 <Card style={{
