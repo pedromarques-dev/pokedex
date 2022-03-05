@@ -7,6 +7,7 @@
    * [Sobre](#Sobre)
    * [Status](#status)
    * [Objetivo](#objetivo)
+   * [Curiosidade](#curiosidade)
    * [Tecnologias](#tecnologias)
    * [Acessando o site](#acessando-o-site)
 
@@ -20,6 +21,9 @@
 
 ## Sobre
   O projeto é uma pokedex que pega informações da api https://pokeapi.co/ e mostra na tela todos os pokemons.
+  
+  ![image](https://user-images.githubusercontent.com/81711739/156869114-88014b11-7bbb-484d-b3ae-3d10d0566bee.png)
+
 
 ## Status
  
@@ -28,6 +32,9 @@
 ## Objetivo
 
   O desafio submete manipulação de array com hooks no react, onde você vai renderizar na tela os pokemons presentes na pokedex. O usuario pode pesquisar o pokemon, acessar uma pagina interna de cada pokemon e poder visualizar mais pokemons quando quiser.
+  ![image](https://user-images.githubusercontent.com/81711739/156869144-a61bc79d-ccac-455a-a78f-23eb83b4edc3.png)
+
+  
   Alguns metodos utilizados no projeto:
    
    * React-router-dom;
@@ -39,6 +46,10 @@
    * Manipulação de objetos/array JS
    * ContextApi
    * Styled Components
+
+##Curiosidade
+  Esse projeto contem o tema dark personalizado para os pokemons também.
+  ![image](https://user-images.githubusercontent.com/81711739/156869174-98a5cc6e-8fc5-4687-9ec4-6359e4872f0b.png)
 
 
 ## Tecnologias
