@@ -13,21 +13,21 @@
 ## Como usar
  Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
 
-### `git clone https://github.com/pedromarques-dev/Bebidas-GeoscorpGO.git`
-### `cd bebidas-geoscorp`
+### `git clone https://github.com/pedromarques-dev/pokedex.git`
+### `cd pokedex`
 ### `npm install`
 ### `npm start`
 
 ## Sobre
-  O projeto vem de uma startup chamada GeoscorpGO e é utilizado como desafio para novos integrantes na empresa. 
+  O projeto é uma pokedex que pega informações da api https://pokeapi.co/ e mostra na tela todos os pokemons.
 
 ## Status
  
-  #### Projeto GeoscorpGO 🚀 Finalizado ✅
+  #### Projeto Pokedex 🚀 Finalizado ✅
        
 ## Objetivo
 
-  O desafio submete manipulação de array com hooks no react, onde você vai renderizar na tela as bebidas que estão atualmente contidas no estoque. Deve ser possível tambem remover bebidas, adicionar uma bebida nova e filtrar bebidas pelo campo de busca.
+  O desafio submete manipulação de array com hooks no react, onde você vai renderizar na tela os pokemons presentes na pokedex. O usuario pode pesquisar o pokemon, acessar uma pagina interna de cada pokemon e poder visualizar mais pokemons quando quiser.
   Alguns metodos utilizados no projeto:
    
    * React-router-dom;
@@ -52,11 +52,10 @@
 
 ## Acessando o site
 
-  Para acessar o site, clique em: 
-  <a href='https://bebidas-geoscorp-go.vercel.app/' target='_blank' >Bebidas GeoscorpGO</a>
+  Para acessar o site do projeto da pokedex, por favor usar esse link : <a href="https://pokedex-bay-eta.vercel.app/" target="_blank">Pokedex</a>
 
 
-Para acessar o site do projeto da pokedex, por favor usar esse link : <a href="https://pokedex-bay-eta.vercel.app/" target="_blank">Pokedex</a>
+
 
 
 
