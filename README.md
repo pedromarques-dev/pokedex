@@ -12,7 +12,7 @@
    * [Acessando o site](#acessando-o-site)
 
 ## Como usar
- Para utilizar os arquivos do projeto an sua maquina, você deve seguir os passos abaixos:
+ Para utilizar os arquivos do projeto na sua maquina, você deve seguir os passos abaixos:
 
 ### `git clone https://github.com/pedromarques-dev/pokedex.git`
 ### `cd pokedex`
